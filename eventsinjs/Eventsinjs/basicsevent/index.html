@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <!-- inline way -->
+
+   <h1>Inline Event Handler</h1>
+  <button onclick="alert('welcome')">greeting</button>
+  <button ondblclick="alert('welcome Js course')">greeting Again</button>
+  <button onmouseover="alert('welcome course')">greeting Again</button>
+  <!-- dom ways -->
+   <h1>Dom Event Handler</h1>
+   <button id="myBtn">greeting</button>
+   <button id="myBtn1">greeting again</button>
+
+   <!-- addevent listener--> 
+    <h1>Add Event listener Event Handler</h1>
+    <button id="myBtn2">Learning</button>
+    <button id="myBtn3">Learning addevent</button>
+
+   <script>
+    document.getElementById("myBtn").onclick= function ()  {
+      alert("welcome Js course1");
+   }
+
+   document.getElementById("myBtn1").onmouseover= function ()  {
+      alert("welcome Js course....");
+   }
+
+   document.getElementById("myBtn2").addEventListener("click", () => {
+    alert("javascript course");
+   });
+
+   document.getElementById("myBtn3").addEventListener("mouseover", () => {
+    alert("Topper secret!");
+   });
+   </script>
+  <!-- <script src="script.js"></script> -->
+</body>
+</html>

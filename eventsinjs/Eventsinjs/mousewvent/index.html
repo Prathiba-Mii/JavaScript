@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .rectangle {
+      width: 200px;
+      height: 100px;
+      background-color: #4CAF50;
+      margin-bottom: 20px;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    .animate {
+      transform: scale(1.1);
+      background-color: #BF3131;
+    }
+  </style>
+</head>
+<body>
+  
+  <section>
+    <div class="rectangle"></div>
+    <button id="myButton">Click me</button>
+  </section>
+
+  <script>
+    let myButton = document.getElementById("myButton");
+    let rectDiv = document.querySelector(".rectangle");
+
+    const handleMouseEvents = () => {
+      console.log("click");
+      rectDiv.classList.add("animate");  // Adds the animation class
+    };
+
+    const handleMouseOut = () => {
+      console.log("mouse out");
+      rectDiv.classList.remove("animate");  // Removes the animation class
+    };
+
+    myButton.addEventListener("click", handleMouseEvents);
+    rectDiv.addEventListener("mouseout", handleMouseOut);
+  </script>
+</body>
+</html>

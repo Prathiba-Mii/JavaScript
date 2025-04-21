@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #212121;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#grey {
+  height: 120px;
+  width: 120px;
+  background-color: gray;
+  display: flex;
+  text-align: center;
+  padding: 25px;
+  margin: 50px;
+  justify-content: center;
+  border-radius: 25%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#white {
+  height: 120px;
+  width: 120px;
+  background-color: white;
+  display: flex;
+  text-align: center;
+  padding: 25px;
+  margin: 50px;
+  justify-content: center;
+  border-radius: 25%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#blue {
+  height: 120px;
+  width: 120px;
+  background-color: blue;
+  display: flex;
+  text-align: center;
+  padding: 25px;
+  margin: 50px;
+  justify-content: center;
+  border-radius: 25%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#yellow {
+  height: 120px;
+  width: 120px;
+  background-color: yellow;
+  display: flex;
+  text-align: center;
+  padding: 25px;
+  margin: 50px;
+  justify-content: center;
+  border-radius: 25%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#purple {
+  height: 120px;
+  width: 120px;
+  background-color: purple;
+  display: flex;
+  text-align: center;
+  padding: 25px;
+  margin: 50px;
+  justify-content: center;
+  border-radius: 25%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+#div {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+nav{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+a{
+  padding: 15px;
+  margin: 17px;
+  border-radius: 25px;
+  font-size: 50px;
+}
+
+h1,h2{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}

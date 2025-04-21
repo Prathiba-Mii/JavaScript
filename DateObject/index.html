@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>hello</h1>
+  <script>
+    const currentDate = new Date();
+    console.log(currentDate);  //one way
+
+    const dateString = "2025-03-19t10:44:09.274";
+    const dateFromString = new Date(dateString);
+    console.log(dateFromString);  //=> way 2
+
+    const date1 = new Date(2025,4);
+    console.log()  //=>3rdway
+    
+
+    const date2 = new Date(2024,1,19);
+    console.log(date2);   //=>4th way  
+    //in javascript month starts from 0 to 11
+
+    
+    const date3 = new Date(2024,1,19,10);
+    console.log(date3); //hours
+
+    
+    const date4 = new Date(2024,1,19,10,44);
+    console.log(date4); //mins
+
+    
+    const date5 = new Date(2024,1,19,10,44,9);
+    console.log(date5); //seconds adding
+
+    
+    const date6 = new Date(2024,1,19,10,44,9,274);
+    console.log(date6); //milliseconds
+
+    const curMilliSeconds = new Date().getTime();
+    // curMilliSeconds; //milliseconds karthey aise
+
+    const dateFromMilliseconds = new Date(curMilliSeconds);
+    console.log(dateFromMilliseconds);
+
+    //***********************************************************************
+
+    const date11 = new Date("2025-04-01") //Year-Month-Day
+    const date12 = new Date("April 1, 2025") // Month Day, Year
+    console.log(date11);
+    console.log(date12);
+    
+//***************************************************************************
+
+    // const currentDate = new Date(); //=>this line used again
+
+    const year = currentDate.getFullYear();
+    const month = currentDate.getMonth();
+    const date = currentDate.getDate();
+    const day = currentDate.getDay(); //get means getting get 
+
+    console.log(year); //for year
+    console.log(month); //for month //month starts from 0 i.e 0=jan, 1 = feb 2 = Mar , 3 = April now its april
+
+    console.log(currentDate);
+    console.log(day);
+    // console.log(date);
+    // date.setFullYear(2025); //set karna 
+    // console.log(date);
+
+    date11.setDate(15);
+    console.log(date);
+    
+    // **************************************************************
+
+    const currentTime = new Date();
+
+    const hours = currentTime.getHours();
+    const minutes = currentTime.getMinutes();
+    const seconds = currentTime.getSeconds();
+    const time = currentTime.getTime();
+    console.log(time);
+    
+    // *********************************************************************
+
+    // setting 
+
+    // const date = new Date();  //  => Like this declared again
+
+    date3.setHours(12); // in this changed hours like 12
+    console.log(date3);
+
+    date3.setMilliseconds(400); //we cant see this milliseconds in console window
+    console.log(date3);
+    
+//****
+const date13 = new Date();
+const localString = date.toLocaleString();
+console.log(localStrings);
+
+
+  </script>
+</body>
+</html>
